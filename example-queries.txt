@@ -1,0 +1,38 @@
+cloud-platform-ci
+
+
+
+ldapsearch -x -h auth.edir.rackspace.com -v -b o=rackspace -s sub "(sn=maier)"
+
+ldapsearch -x -h auth.edir.rackspace.com -v -b o=rackspace -s sub "(sn=maier)" uid
+
+ldapsearch -x -h auth.edir.rackspace.com -v -b o=rackspace -s sub "(cn=lnx-cloud)"
+
+
+ldapsearch -x -h auth.edir.rackspace.com -v -b o=rackspace -s sub "(cn=cloud-platform-ci)"
+
+
+ldapsearch -x -h auth.edir.rackspace.com -v -b o=rackspace -s sub "(cn=cloud-platform-ci)" groupMembership createTimeStamp modifyTimeStamp creatorsName modifiersName
+
+
+ldapsearch -x -h auth.edir.rackspace.com -v -b o=rackspace -s sub "(cn=cloud-platform-ci)" \* createTimeStamp modifyTimeStamp
+
+ldapsearch -x -h auth.edir.rackspace.com -v -b o=rackspace -s sub "(cn=cloud-platform-ci)" \*
+
+# Doesn't work - the 636 / LDAP-S fails
+ldapsearch -x -H ldaps://auth.edir.rackspace.com -v -b o=rackspace -s sub "(cn=cloud-platform-ci)" groupMembership
+
+
+
+# Test directory
+ldapsearch -x -h 166.78.47.4 -v -b o=rackspace -s sub "(sn=16)" 
+
+ldapsearch -x -h 166.78.47.4 -v -b o=rackspace -s sub "(uid=cmaier)" 
+
+ldapsearch -x -h 166.78.47.4 -v -b ou=posixgroups,o=rackspace -s sub "(objectClass=*)" 
+
+
+ldapsearch -x -h 166.78.47.4 -v -b ou=posixgroups,o=rackspace -s sub "(dn=cn=lnx-cloud-test*)" 
+
+
+ldapsearch -x -h 166.78.47.4 -v -b ou=posixgroups,o=rackspace -s sub (dn=cn=lnx-cloud-test*)

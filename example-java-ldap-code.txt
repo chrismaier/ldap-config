@@ -1,0 +1,5 @@
+http://www.adamretter.org.uk/blog/entries/LDAPTest.java
+http://www.javaworld.com/article/2076073/java-web-development/ldap-and-jndi--together-forever.html
+http://docs.oracle.com/javase/jndi/tutorial/ldap/security/ldap.html
+https://code.google.com/p/java-use-examples/source/browse/trunk/src/com/aw/ad/LdapBasicExample.java?r=2
+http://stackoverflow.com/questions/2172831/how-do-a-ldap-search-authenticate-against-this-ldap-in-java
