@@ -1,0 +1,12 @@
+Java / LDAP example code
+
+http://www.java2s.com/Code/Java/JNDI-LDAP/RetrievestheDNfromthesearchresults.htm
+http://stackoverflow.com/questions/13461978/ldapsearch-returns-namingcontexts-but-jndi-does-not
+http://docs.oracle.com/javase/tutorial/displayCode.html?code=http://docs.oracle.com/javase/tutorial/jndi/newstuff/examples/FullName.java
+http://docs.oracle.com/javase/tutorial/jndi/newstuff/ldapname.html
+http://docs.oracle.com/javase/6/docs/api/javax/naming/Context.html#URL_PKG_PREFIXES
+http://stackoverflow.com/questions/1998159/exception-need-to-specify-class-name-in-environment-or-system-property-java-na
+http://stackoverflow.com/questions/15779510/javax-naming-noinitialcontextexception-java
+http://stackoverflow.com/questions/11045628/how-to-bind-in-java-using-dn-and-password-in-ldap
+http://www.java2s.com/Code/Java/JNDI-LDAP/howtocreateaninitialcontexttoanLDAPserverusinganonymousauthenticationienone.htm
+http://docs.oracle.com/javase/tutorial/jndi/ldap/anonymous.html

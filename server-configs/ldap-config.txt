@@ -1,0 +1,14 @@
+# Certificate management
+config-n01.dev.ord1.uk.ci.rackspace.net
+
+
+openssl pkcs12 -export -in config-n01.dev.ord1.uk.ci.rackspace.net.crt -inkey config-n01.dev.ord1.uk.ci.rackspace.net.key -out config-n01.p12
+openssl pkcs12 -export -in config-n02.dev.ord1.uk.ci.rackspace.net.crt -inkey config-n02.dev.ord1.uk.ci.rackspace.net.key -out config-n02.p12
+openssl pkcs12 -export -in config.dev.ord1.uk.ci.rackspace.net.crt -inkey config.dev.ord1.uk.ci.rackspace.net.key -out config.p12
+
+
+cd /etc/dirsrv/slapd-config-n01
+
+certutil -A -d . -n "Rackspace Internal CA" -t "CT,," -a -i /home/chris.maier/rackspace_internal_ca.pem
+
+pk12util -i /home/chris.maier/config-n01.p12 -d .

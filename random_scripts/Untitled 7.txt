@@ -1,0 +1,87 @@
+sar -q -f /var/log/sa/sa08 |grep "[AP]M" |awk '/[:blank:]/ { print \$3 }' |sort -n |tail -n 1
+
+sar -u -f /var/log/sa/sa08 |grep "[AP]M" |awk '/[:blank:]/ { print $4 }' |sort -n |tail -n 1
+
+
+objectClass: posixGroup
+uniqueMember: cn=vic.watkins,ou=Users,o=rackspace
+uniqueMember: cn=john.trenholm,ou=Users,o=rackspace
+uniqueMember: cn=kat.dober,ou=Users,o=rackspace
+uniqueMember: cn=chris.maier,ou=Users,o=rackspace
+uniqueMember: cn=chris.bartels,ou=Users,o=rackspace
+uniqueMember: cn=igor.gueths,ou=Users,o=rackspace
+uniqueMember: cn=jon.kelley,ou=Users,o=rackspace
+uniqueMember: cn=wbentz,ou=Users,o=rackspace
+uniqueMember: cn=jbartels,ou=Users,o=rackspace
+uniqueMember: cn=case3946,ou=Users,o=rackspace
+uniqueMember: cn=camp4034,ou=Users,o=rackspace
+uniqueMember: cn=jesse.gonzalez,ou=Users,o=rackspace
+uniqueMember: cn=mark4772,ou=Users,o=rackspace
+uniqueMember: cn=greg.ball,ou=Users,o=rackspace
+uniqueMember: cn=tyler.duzan,ou=Users,o=rackspace
+uniqueMember: cn=evan4498,ou=Users,o=rackspace
+uniqueMember: cn=tony4715,ou=Users,o=rackspace
+uniqueMember: cn=sean4747,ou=Users,o=rackspace
+uniqueMember: cn=nick.bales,ou=Users,o=rackspace
+uniqueMember: cn=bobby.vardeman,ou=Users,o=rackspace
+uniqueMember: cn=josh4613,ou=Users,o=rackspace
+uniqueMember: cn=benj4852,ou=Users,o=rackspace
+uniqueMember: cn=tom.hopkins,ou=Users,o=rackspace
+uniqueMember: cn=ben.alcala,ou=Users,o=rackspace
+uniqueMember: cn=farid.saad,ou=Users,o=rackspace
+uniqueMember: cn=ryan.cleere,ou=Users,o=rackspace
+cn: lnx-cloud-nebopsengineers
+
+
+
+
+uniqueMember: cn=chris.bartels,ou=Users,o=rackspace
+uniqueMember: cn=igor.gueths,ou=Users,o=rackspace
+uniqueMember: cn=jon.kelley,ou=Users,o=rackspace
+uniqueMember: cn=wbentz,ou=Users,o=rackspace
+uniqueMember: cn=jbartels,ou=Users,o=rackspace
+uniqueMember: cn=case3946,ou=Users,o=rackspace
+uniqueMember: cn=greg.ball,ou=Users,o=rackspace
+uniqueMember: cn=tyler.duzan,ou=Users,o=rackspace
+uniqueMember: cn=evan4498,ou=Users,o=rackspace
+uniqueMember: cn=tony4715,ou=Users,o=rackspace
+uniqueMember: cn=sean4747,ou=Users,o=rackspace
+uniqueMember: cn=nick.bales,ou=Users,o=rackspace
+uniqueMember: cn=bobby.vardeman,ou=Users,o=rackspace
+uniqueMember: cn=josh4613,ou=Users,o=rackspace
+uniqueMember: cn=benj4852,ou=Users,o=rackspace
+uniqueMember: cn=tom.hopkins,ou=Users,o=rackspace
+uniqueMember: cn=ben.alcala,ou=Users,o=rackspace
+uniqueMember: cn=farid.saad,ou=Users,o=rackspace
+uniqueMember: cn=ryan.cleere,ou=Users,o=rackspace
+
+owner: cn=vic.watkins,ou=Users,o=rackspace
+owner: cn=wbentz,ou=Users,o=rackspace
+
+
+
+
+
+cn: lnx-cloud-nebopsadmins
+uniqueMember: cn=jesse.gonzalez,ou=Users,o=rackspace
+uniqueMember: cn=jeff.escamilla,ou=Users,o=rackspace
+uniqueMember: cn=benj4017,ou=Users,o=rackspace
+
+owner: cn=vic.watkins,ou=Users,o=rackspace
+owner: cn=wbentz,ou=Users,o=rackspace
+
+
+
+
+atomdb.staging.ord1.us.ccp.rackspace.net
+atomdbslave.staging.ord1.us.ci.rackspace.net
+
+atomdb.staging.ord1.uk.ci.rackspace.net 	
+atomdbslave.staging.ord1.uk.ci.rackspace.net
+
+
+
+
+
+
+

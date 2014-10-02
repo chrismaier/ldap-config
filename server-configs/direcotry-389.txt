@@ -1,0 +1,11 @@
+
+
+# need to create a user & group first...
+
+yum install openldap-clients
+yum install 389-ds-base
+cd /usr/share/dirsrv/
+
+# actually set up a directory instance
+setup-ds.pl
+
